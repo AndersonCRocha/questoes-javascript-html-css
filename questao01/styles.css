@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 16px;
+}
+
+.input-group {
+  padding: 4px 0;
+}
+
+.input-group > input {
+  max-width: 50px;
+}
+
+button {
+  margin-top: 4px;
+}
